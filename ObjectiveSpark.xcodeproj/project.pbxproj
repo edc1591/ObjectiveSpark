@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209B1F81197F12D700E9069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F80197F12D700E9069D /* Foundation.framework */; };
+		209B1F86197F12D700E9069D /* ObjectiveSpark.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209B1F85197F12D700E9069D /* ObjectiveSpark.h */; };
+		209B1F88197F12D700E9069D /* ObjectiveSpark.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1F87197F12D700E9069D /* ObjectiveSpark.m */; };
+		209B1F8F197F12D700E9069D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F8E197F12D700E9069D /* XCTest.framework */; };
+		209B1F90197F12D700E9069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F80197F12D700E9069D /* Foundation.framework */; };
+		209B1F92197F12D700E9069D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F91197F12D700E9069D /* UIKit.framework */; };
+		209B1F95197F12D700E9069D /* libObjectiveSpark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F7D197F12D700E9069D /* libObjectiveSpark.a */; };
+		209B1F9B197F12D700E9069D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209B1F99197F12D700E9069D /* InfoPlist.strings */; };
+		209B1F9D197F12D700E9069D /* ObjectiveSparkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209B1F93197F12D700E9069D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209B1F75197F12D700E9069D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209B1F7C197F12D700E9069D;
+			remoteInfo = ObjectiveSpark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		209B1F7B197F12D700E9069D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				209B1F86197F12D700E9069D /* ObjectiveSpark.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		209B1F7D197F12D700E9069D /* libObjectiveSpark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveSpark.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B1F80197F12D700E9069D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		209B1F84197F12D700E9069D /* ObjectiveSpark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSpark-Prefix.pch"; sourceTree = "<group>"; };
+		209B1F85197F12D700E9069D /* ObjectiveSpark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSpark.h; sourceTree = "<group>"; };
+		209B1F87197F12D700E9069D /* ObjectiveSpark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSpark.m; sourceTree = "<group>"; };
+		209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveSparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B1F8E197F12D700E9069D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		209B1F91197F12D700E9069D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		209B1F98197F12D700E9069D /* ObjectiveSparkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveSparkTests-Info.plist"; sourceTree = "<group>"; };
+		209B1F9A197F12D700E9069D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSparkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209B1F7A197F12D700E9069D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F81197F12D700E9069D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B1F8A197F12D700E9069D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F8F197F12D700E9069D /* XCTest.framework in Frameworks */,
+				209B1F95197F12D700E9069D /* libObjectiveSpark.a in Frameworks */,
+				209B1F92197F12D700E9069D /* UIKit.framework in Frameworks */,
+				209B1F90197F12D700E9069D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209B1F74197F12D700E9069D = {
+			isa = PBXGroup;
+			children = (
+				209B1F82197F12D700E9069D /* ObjectiveSpark */,
+				209B1F96197F12D700E9069D /* ObjectiveSparkTests */,
+				209B1F7F197F12D700E9069D /* Frameworks */,
+				209B1F7E197F12D700E9069D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209B1F7E197F12D700E9069D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F7D197F12D700E9069D /* libObjectiveSpark.a */,
+				209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209B1F7F197F12D700E9069D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F80197F12D700E9069D /* Foundation.framework */,
+				209B1F8E197F12D700E9069D /* XCTest.framework */,
+				209B1F91197F12D700E9069D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		209B1F82197F12D700E9069D /* ObjectiveSpark */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F85197F12D700E9069D /* ObjectiveSpark.h */,
+				209B1F87197F12D700E9069D /* ObjectiveSpark.m */,
+				209B1F83197F12D700E9069D /* Supporting Files */,
+			);
+			path = ObjectiveSpark;
+			sourceTree = "<group>";
+		};
+		209B1F83197F12D700E9069D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F84197F12D700E9069D /* ObjectiveSpark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209B1F96197F12D700E9069D /* ObjectiveSparkTests */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */,
+				209B1F97197F12D700E9069D /* Supporting Files */,
+			);
+			path = ObjectiveSparkTests;
+			sourceTree = "<group>";
+		};
+		209B1F97197F12D700E9069D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F98197F12D700E9069D /* ObjectiveSparkTests-Info.plist */,
+				209B1F99197F12D700E9069D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209B1F7C197F12D700E9069D /* ObjectiveSpark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B1FA0197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSpark" */;
+			buildPhases = (
+				209B1F79197F12D700E9069D /* Sources */,
+				209B1F7A197F12D700E9069D /* Frameworks */,
+				209B1F7B197F12D700E9069D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveSpark;
+			productName = ObjectiveSpark;
+			productReference = 209B1F7D197F12D700E9069D /* libObjectiveSpark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		209B1F8C197F12D700E9069D /* ObjectiveSparkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B1FA3197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSparkTests" */;
+			buildPhases = (
+				209B1F89197F12D700E9069D /* Sources */,
+				209B1F8A197F12D700E9069D /* Frameworks */,
+				209B1F8B197F12D700E9069D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209B1F94197F12D700E9069D /* PBXTargetDependency */,
+			);
+			name = ObjectiveSparkTests;
+			productName = ObjectiveSparkTests;
+			productReference = 209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209B1F75197F12D700E9069D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Evan Coleman";
+			};
+			buildConfigurationList = 209B1F78197F12D700E9069D /* Build configuration list for PBXProject "ObjectiveSpark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 209B1F74197F12D700E9069D;
+			productRefGroup = 209B1F7E197F12D700E9069D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209B1F7C197F12D700E9069D /* ObjectiveSpark */,
+				209B1F8C197F12D700E9069D /* ObjectiveSparkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209B1F8B197F12D700E9069D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F9B197F12D700E9069D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209B1F79197F12D700E9069D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F88197F12D700E9069D /* ObjectiveSpark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B1F89197F12D700E9069D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F9D197F12D700E9069D /* ObjectiveSparkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209B1F94197F12D700E9069D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209B1F7C197F12D700E9069D /* ObjectiveSpark */;
+			targetProxy = 209B1F93197F12D700E9069D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209B1F99197F12D700E9069D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209B1F9A197F12D700E9069D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209B1F9E197F12D700E9069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		209B1F9F197F12D700E9069D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209B1FA1197F12D700E9069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveSpark.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		209B1FA2197F12D700E9069D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveSpark.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		209B1FA4197F12D700E9069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectiveSparkTests/ObjectiveSparkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		209B1FA5197F12D700E9069D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveSparkTests/ObjectiveSparkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209B1F78197F12D700E9069D /* Build configuration list for PBXProject "ObjectiveSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B1F9E197F12D700E9069D /* Debug */,
+				209B1F9F197F12D700E9069D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209B1FA0197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B1FA1197F12D700E9069D /* Debug */,
+				209B1FA2197F12D700E9069D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		209B1FA3197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSparkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B1FA4197F12D700E9069D /* Debug */,
+				209B1FA5197F12D700E9069D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209B1F75197F12D700E9069D /* Project object */;
+}
