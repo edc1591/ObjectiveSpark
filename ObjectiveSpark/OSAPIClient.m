@@ -32,6 +32,10 @@
 }
 
 - (void)readVariable:(NSString *)var completion:(void (^)(id, NSError *))completion {
+    // Spark truncates variable names after the 12th character
+    if (var.length > 12) {
+        var = [var substringToIndex:12];
+    }
     [self POST:var parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         if (completion != nil) {
             completion(responseObject, nil);
