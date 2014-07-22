@@ -10,12 +10,37 @@
 
 @implementation OSAPIClient
 
-- (instancetype)initWithAccessToken:(NSString *)accessToken {
-    self = [super initWithBaseURL:[NSURL URLWithString:@"https://api.spark.io/v1/devices/"]];
+- (instancetype)initWithAccessToken:(NSString *)accessToken deviceID:(NSString *)deviceID {
+    NSString *urlString = [NSString stringWithFormat:@"https://api.spark.io/v1/devices/%@", deviceID];
+    self = [super initWithBaseURL:[NSURL URLWithString:urlString]];
     if (self != nil) {
 
     }
     return self;
+}
+
+- (void)callFunction:(NSString *)func completion:(void (^)(id, NSError *))completion {
+    [self GET:func parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        if (completion != nil) {
+            completion(responseObject, nil);
+        }
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        if (completion != nil) {
+            completion(nil, error);
+        }
+    }];
+}
+
+- (void)readVariable:(NSString *)var completion:(void (^)(id, NSError *))completion {
+    [self POST:var parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        if (completion != nil) {
+            completion(responseObject, nil);
+        }
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        if (completion != nil) {
+            completion(nil, error);
+        }
+    }];
 }
 
 @end

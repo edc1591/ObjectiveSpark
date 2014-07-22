@@ -11,6 +11,9 @@
 
 @interface OSAPIClient : AFHTTPSessionManager
 
-- (instancetype)initWithAccessToken:(NSString *)accessToken;
+- (instancetype)initWithAccessToken:(NSString *)accessToken deviceID:(NSString *)deviceID;
+
+- (void)callFunction:(NSString *)func completion:(void (^)(id responseObject, NSError *error))completion;
+- (void)readVariable:(NSString *)var completion:(void (^)(id responseObject, NSError *error))completion;
 
 @end
