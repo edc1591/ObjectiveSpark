@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
 
-@interface OSAPIClient : NSObject
+@interface OSAPIClient : AFHTTPSessionManager
+
+- (instancetype)initWithAccessToken:(NSString *)accessToken;
 
 @end

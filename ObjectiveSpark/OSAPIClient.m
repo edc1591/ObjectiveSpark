@@ -10,4 +10,12 @@
 
 @implementation OSAPIClient
 
+- (instancetype)initWithAccessToken:(NSString *)accessToken {
+    self = [super initWithBaseURL:[NSURL URLWithString:@"https://api.spark.io/v1/devices/"]];
+    if (self != nil) {
+
+    }
+    return self;
+}
+
 @end
