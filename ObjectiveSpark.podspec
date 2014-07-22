@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     ss.dependency 'ReactiveCocoa'
     
     ss.public_header_files = 'ReactiveCocoa+ObjectiveSpark/*.h'
-    ss.source_files = 'ReactiveCocoa+ObjectiveSpark.h'
+    ss.source_files = 'ReactiveCocoa+ObjectiveSpark/ReactiveCocoa+ObjectiveSpark.h', 'ReactiveCocoa+ObjectiveSpark/OSAPIClient+RACSupport.{h,m}'
   end
 
 end
