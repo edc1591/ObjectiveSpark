@@ -11,9 +11,12 @@
 
 @interface OSAPIClient : AFHTTPSessionManager
 
+/// Creates a new OSAPIClient with a given access token and device ID.
 - (instancetype)initWithAccessToken:(NSString *)accessToken deviceID:(NSString *)deviceID;
 
+/// Calls a given function on the Spark Core.
 - (NSURLSessionDataTask *)callFunction:(NSString *)func completion:(void (^)(id responseObject, NSError *error))completion;
+/// Reads a given variable on the Spark Core.
 - (NSURLSessionDataTask *)readVariable:(NSString *)var completion:(void (^)(id responseObject, NSError *error))completion;
 
 @end
