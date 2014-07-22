@@ -1,15 +1,15 @@
 //
-//  ObjectiveSpark.h
+//  ReactiveCocoa+ObjectiveSpark.h
 //  ObjectiveSpark
 //
 //  Created by Evan Coleman on 7/22/14.
 //  Copyright (c) 2014 Evan Coleman. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
-#ifndef _OBJECTIVESPARK_H
-#define _OBJECTIVESPARK_H
+#ifndef _REACTIVESPARK_H
+#define _REACTIVESPARK_H
 
 
 

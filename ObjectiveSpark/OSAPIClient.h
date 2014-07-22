@@ -1,13 +1,13 @@
 //
-//  ObjectiveSpark.m
+//  OSAPIClient.h
 //  ObjectiveSpark
 //
 //  Created by Evan Coleman on 7/22/14.
 //  Copyright (c) 2014 Evan Coleman. All rights reserved.
 //
 
-#import "ObjectiveSpark.h"
+#import <Foundation/Foundation.h>
 
-@implementation ObjectiveSpark
+@interface OSAPIClient : NSObject
 
 @end

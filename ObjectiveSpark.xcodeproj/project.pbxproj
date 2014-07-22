@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		209B1F81197F12D700E9069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F80197F12D700E9069D /* Foundation.framework */; };
 		209B1F86197F12D700E9069D /* ObjectiveSpark.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209B1F85197F12D700E9069D /* ObjectiveSpark.h */; };
-		209B1F88197F12D700E9069D /* ObjectiveSpark.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1F87197F12D700E9069D /* ObjectiveSpark.m */; };
 		209B1F8F197F12D700E9069D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F8E197F12D700E9069D /* XCTest.framework */; };
 		209B1F90197F12D700E9069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F80197F12D700E9069D /* Foundation.framework */; };
 		209B1F92197F12D700E9069D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F91197F12D700E9069D /* UIKit.framework */; };
 		209B1F95197F12D700E9069D /* libObjectiveSpark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F7D197F12D700E9069D /* libObjectiveSpark.a */; };
 		209B1F9B197F12D700E9069D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209B1F99197F12D700E9069D /* InfoPlist.strings */; };
 		209B1F9D197F12D700E9069D /* ObjectiveSparkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */; };
+		209B1FA9197F149900E9069D /* OSAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1FA8197F149900E9069D /* OSAPIClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +46,15 @@
 		209B1F80197F12D700E9069D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		209B1F84197F12D700E9069D /* ObjectiveSpark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSpark-Prefix.pch"; sourceTree = "<group>"; };
 		209B1F85197F12D700E9069D /* ObjectiveSpark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSpark.h; sourceTree = "<group>"; };
-		209B1F87197F12D700E9069D /* ObjectiveSpark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSpark.m; sourceTree = "<group>"; };
 		209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveSparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209B1F8E197F12D700E9069D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		209B1F91197F12D700E9069D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		209B1F98197F12D700E9069D /* ObjectiveSparkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveSparkTests-Info.plist"; sourceTree = "<group>"; };
 		209B1F9A197F12D700E9069D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSparkTests.m; sourceTree = "<group>"; };
+		209B1FA7197F149900E9069D /* OSAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSAPIClient.h; sourceTree = "<group>"; };
+		209B1FA8197F149900E9069D /* OSAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSAPIClient.m; sourceTree = "<group>"; };
+		209B1FAB197F151D00E9069D /* ReactiveCocoa+ObjectiveSpark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa+ObjectiveSpark.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				209B1F82197F12D700E9069D /* ObjectiveSpark */,
+				209B1FAA197F14A000E9069D /* ReactiveCocoa+ObjectiveSpark */,
 				209B1F96197F12D700E9069D /* ObjectiveSparkTests */,
 				209B1F7F197F12D700E9069D /* Frameworks */,
 				209B1F7E197F12D700E9069D /* Products */,
@@ -111,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				209B1F85197F12D700E9069D /* ObjectiveSpark.h */,
-				209B1F87197F12D700E9069D /* ObjectiveSpark.m */,
+				209B1FA6197F148600E9069D /* Core */,
 				209B1F83197F12D700E9069D /* Supporting Files */,
 			);
 			path = ObjectiveSpark;
@@ -141,6 +144,23 @@
 				209B1F99197F12D700E9069D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209B1FA6197F148600E9069D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				209B1FA7197F149900E9069D /* OSAPIClient.h */,
+				209B1FA8197F149900E9069D /* OSAPIClient.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		209B1FAA197F14A000E9069D /* ReactiveCocoa+ObjectiveSpark */ = {
+			isa = PBXGroup;
+			children = (
+				209B1FAB197F151D00E9069D /* ReactiveCocoa+ObjectiveSpark.h */,
+			);
+			name = "ReactiveCocoa+ObjectiveSpark";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209B1F88197F12D700E9069D /* ObjectiveSpark.m in Sources */,
+				209B1FA9197F149900E9069D /* OSAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
