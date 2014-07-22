@@ -1,945 +1,485 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>209B1F74197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F82197F12D700E9069D</string>
-				<string>209B1FAA197F14A000E9069D</string>
-				<string>209B1F96197F12D700E9069D</string>
-				<string>209B1F7F197F12D700E9069D</string>
-				<string>209B1F7E197F12D700E9069D</string>
-				<string>D63DE1F202E54A18BFEA4955</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F75197F12D700E9069D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Evan Coleman</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>209B1F78197F12D700E9069D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>209B1F74197F12D700E9069D</string>
-			<key>productRefGroup</key>
-			<string>209B1F7E197F12D700E9069D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>209B1F7C197F12D700E9069D</string>
-				<string>209B1F8C197F12D700E9069D</string>
-			</array>
-		</dict>
-		<key>209B1F78197F12D700E9069D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>209B1F9E197F12D700E9069D</string>
-				<string>209B1F9F197F12D700E9069D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>209B1F79197F12D700E9069D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>209B1FA9197F149900E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>209B1F7A197F12D700E9069D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>209B1F81197F12D700E9069D</string>
-				<string>C5FA613965F24913839AF328</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>209B1F7B197F12D700E9069D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string>include/$(PRODUCT_NAME)</string>
-			<key>dstSubfolderSpec</key>
-			<string>16</string>
-			<key>files</key>
-			<array>
-				<string>209B1F86197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>209B1F7C197F12D700E9069D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>209B1FA0197F12D700E9069D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B73654C35EFE4AA59FAFCD4C</string>
-				<string>209B1F79197F12D700E9069D</string>
-				<string>209B1F7A197F12D700E9069D</string>
-				<string>209B1F7B197F12D700E9069D</string>
-				<string>7D18FE05AAF84AF7B4A7417E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ObjectiveSpark</string>
-			<key>productName</key>
-			<string>ObjectiveSpark</string>
-			<key>productReference</key>
-			<string>209B1F7D197F12D700E9069D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>209B1F7D197F12D700E9069D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libObjectiveSpark.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>209B1F7E197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F7D197F12D700E9069D</string>
-				<string>209B1F8D197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F7F197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F80197F12D700E9069D</string>
-				<string>209B1F8E197F12D700E9069D</string>
-				<string>209B1F91197F12D700E9069D</string>
-				<string>D2E5E021083E420285CC4999</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F80197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>209B1F81197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F80197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F82197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F85197F12D700E9069D</string>
-				<string>209B1FA6197F148600E9069D</string>
-				<string>209B1F83197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ObjectiveSpark</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F83197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F84197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F84197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ObjectiveSpark-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F85197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ObjectiveSpark.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F86197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F85197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F89197F12D700E9069D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>209B1F9D197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>209B1F8A197F12D700E9069D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>209B1F8F197F12D700E9069D</string>
-				<string>209B1F95197F12D700E9069D</string>
-				<string>209B1F92197F12D700E9069D</string>
-				<string>209B1F90197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>209B1F8B197F12D700E9069D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>209B1F9B197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>209B1F8C197F12D700E9069D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>209B1FA3197F12D700E9069D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>209B1F89197F12D700E9069D</string>
-				<string>209B1F8A197F12D700E9069D</string>
-				<string>209B1F8B197F12D700E9069D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>209B1F94197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ObjectiveSparkTests</string>
-			<key>productName</key>
-			<string>ObjectiveSparkTests</string>
-			<key>productReference</key>
-			<string>209B1F8D197F12D700E9069D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>209B1F8D197F12D700E9069D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ObjectiveSparkTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>209B1F8E197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>209B1F8F197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F8E197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F90197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F80197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F91197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>209B1F92197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F91197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F93197F12D700E9069D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>209B1F75197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>209B1F7C197F12D700E9069D</string>
-			<key>remoteInfo</key>
-			<string>ObjectiveSpark</string>
-		</dict>
-		<key>209B1F94197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>209B1F7C197F12D700E9069D</string>
-			<key>targetProxy</key>
-			<string>209B1F93197F12D700E9069D</string>
-		</dict>
-		<key>209B1F95197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F7D197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F96197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F9C197F12D700E9069D</string>
-				<string>209B1F97197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ObjectiveSparkTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F97197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F98197F12D700E9069D</string>
-				<string>209B1F99197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F98197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ObjectiveSparkTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F99197F12D700E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1F9A197F12D700E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F9A197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F9B197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F99197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F9C197F12D700E9069D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ObjectiveSparkTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1F9D197F12D700E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1F9C197F12D700E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1F9E197F12D700E9069D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>209B1F9F197F12D700E9069D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>209B1FA0197F12D700E9069D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>209B1FA1197F12D700E9069D</string>
-				<string>209B1FA2197F12D700E9069D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>209B1FA1197F12D700E9069D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D63DE1F202E54A18BFEA4955</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>DSTROOT</key>
-				<string>/tmp/ObjectiveSpark.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ObjectiveSpark/ObjectiveSpark-Prefix.pch</string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>209B1FA2197F12D700E9069D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D63DE1F202E54A18BFEA4955</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>DSTROOT</key>
-				<string>/tmp/ObjectiveSpark.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ObjectiveSpark/ObjectiveSpark-Prefix.pch</string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>209B1FA3197F12D700E9069D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>209B1FA4197F12D700E9069D</string>
-				<string>209B1FA5197F12D700E9069D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>209B1FA4197F12D700E9069D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ObjectiveSpark/ObjectiveSpark-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ObjectiveSparkTests/ObjectiveSparkTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>209B1FA5197F12D700E9069D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ObjectiveSpark/ObjectiveSpark-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ObjectiveSparkTests/ObjectiveSparkTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>209B1FA6197F148600E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1FA7197F149900E9069D</string>
-				<string>209B1FA8197F149900E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1FA7197F149900E9069D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSAPIClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1FA8197F149900E9069D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSAPIClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1FA9197F149900E9069D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>209B1FA8197F149900E9069D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>209B1FAA197F14A000E9069D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>209B1FAB197F151D00E9069D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ReactiveCocoa+ObjectiveSpark</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B1FAB197F151D00E9069D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ReactiveCocoa+ObjectiveSpark.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D18FE05AAF84AF7B4A7417E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-ObjectiveSpark-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B73654C35EFE4AA59FAFCD4C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C5FA613965F24913839AF328</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D2E5E021083E420285CC4999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D2E5E021083E420285CC4999</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ObjectiveSpark.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D63DE1F202E54A18BFEA4955</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ObjectiveSpark.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-ObjectiveSpark.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>209B1F75197F12D700E9069D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209B1F81197F12D700E9069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F80197F12D700E9069D /* Foundation.framework */; };
+		209B1F86197F12D700E9069D /* ObjectiveSpark.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209B1F85197F12D700E9069D /* ObjectiveSpark.h */; };
+		209B1F8F197F12D700E9069D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F8E197F12D700E9069D /* XCTest.framework */; };
+		209B1F90197F12D700E9069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F80197F12D700E9069D /* Foundation.framework */; };
+		209B1F92197F12D700E9069D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F91197F12D700E9069D /* UIKit.framework */; };
+		209B1F95197F12D700E9069D /* libObjectiveSpark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B1F7D197F12D700E9069D /* libObjectiveSpark.a */; };
+		209B1F9B197F12D700E9069D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209B1F99197F12D700E9069D /* InfoPlist.strings */; };
+		209B1F9D197F12D700E9069D /* ObjectiveSparkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */; };
+		209B1FA9197F149900E9069D /* OSAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1FA8197F149900E9069D /* OSAPIClient.m */; };
+		C5FA613965F24913839AF328 /* libPods-ObjectiveSpark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E5E021083E420285CC4999 /* libPods-ObjectiveSpark.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209B1F93197F12D700E9069D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209B1F75197F12D700E9069D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209B1F7C197F12D700E9069D;
+			remoteInfo = ObjectiveSpark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		209B1F7B197F12D700E9069D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				209B1F86197F12D700E9069D /* ObjectiveSpark.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		209B1F7D197F12D700E9069D /* libObjectiveSpark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveSpark.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B1F80197F12D700E9069D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		209B1F84197F12D700E9069D /* ObjectiveSpark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSpark-Prefix.pch"; sourceTree = "<group>"; };
+		209B1F85197F12D700E9069D /* ObjectiveSpark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSpark.h; sourceTree = "<group>"; };
+		209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveSparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B1F8E197F12D700E9069D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		209B1F91197F12D700E9069D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		209B1F98197F12D700E9069D /* ObjectiveSparkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveSparkTests-Info.plist"; sourceTree = "<group>"; };
+		209B1F9A197F12D700E9069D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSparkTests.m; sourceTree = "<group>"; };
+		209B1FA7197F149900E9069D /* OSAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSAPIClient.h; sourceTree = "<group>"; };
+		209B1FA8197F149900E9069D /* OSAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSAPIClient.m; sourceTree = "<group>"; };
+		209B1FAE197F165200E9069D /* ReactiveCocoa+ObjectiveSpark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ReactiveCocoa+ObjectiveSpark.h"; path = "ObjectiveSpark/ReactiveCocoa+ObjectiveSpark.h"; sourceTree = "<group>"; };
+		D2E5E021083E420285CC4999 /* libPods-ObjectiveSpark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectiveSpark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63DE1F202E54A18BFEA4955 /* Pods-ObjectiveSpark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveSpark.xcconfig"; path = "Pods/Pods-ObjectiveSpark.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209B1F7A197F12D700E9069D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F81197F12D700E9069D /* Foundation.framework in Frameworks */,
+				C5FA613965F24913839AF328 /* libPods-ObjectiveSpark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B1F8A197F12D700E9069D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F8F197F12D700E9069D /* XCTest.framework in Frameworks */,
+				209B1F95197F12D700E9069D /* libObjectiveSpark.a in Frameworks */,
+				209B1F92197F12D700E9069D /* UIKit.framework in Frameworks */,
+				209B1F90197F12D700E9069D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209B1F74197F12D700E9069D = {
+			isa = PBXGroup;
+			children = (
+				209B1F82197F12D700E9069D /* ObjectiveSpark */,
+				209B1FAA197F14A000E9069D /* ReactiveCocoa+ObjectiveSpark */,
+				209B1F96197F12D700E9069D /* ObjectiveSparkTests */,
+				209B1F7F197F12D700E9069D /* Frameworks */,
+				209B1F7E197F12D700E9069D /* Products */,
+				D63DE1F202E54A18BFEA4955 /* Pods-ObjectiveSpark.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		209B1F7E197F12D700E9069D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F7D197F12D700E9069D /* libObjectiveSpark.a */,
+				209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209B1F7F197F12D700E9069D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F80197F12D700E9069D /* Foundation.framework */,
+				209B1F8E197F12D700E9069D /* XCTest.framework */,
+				209B1F91197F12D700E9069D /* UIKit.framework */,
+				D2E5E021083E420285CC4999 /* libPods-ObjectiveSpark.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		209B1F82197F12D700E9069D /* ObjectiveSpark */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F85197F12D700E9069D /* ObjectiveSpark.h */,
+				209B1FA6197F148600E9069D /* Core */,
+				209B1F83197F12D700E9069D /* Supporting Files */,
+			);
+			path = ObjectiveSpark;
+			sourceTree = "<group>";
+		};
+		209B1F83197F12D700E9069D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F84197F12D700E9069D /* ObjectiveSpark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209B1F96197F12D700E9069D /* ObjectiveSparkTests */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */,
+				209B1F97197F12D700E9069D /* Supporting Files */,
+			);
+			path = ObjectiveSparkTests;
+			sourceTree = "<group>";
+		};
+		209B1F97197F12D700E9069D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209B1F98197F12D700E9069D /* ObjectiveSparkTests-Info.plist */,
+				209B1F99197F12D700E9069D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209B1FA6197F148600E9069D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				209B1FA7197F149900E9069D /* OSAPIClient.h */,
+				209B1FA8197F149900E9069D /* OSAPIClient.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		209B1FAA197F14A000E9069D /* ReactiveCocoa+ObjectiveSpark */ = {
+			isa = PBXGroup;
+			children = (
+				209B1FAE197F165200E9069D /* ReactiveCocoa+ObjectiveSpark.h */,
+			);
+			name = "ReactiveCocoa+ObjectiveSpark";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209B1F7C197F12D700E9069D /* ObjectiveSpark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B1FA0197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSpark" */;
+			buildPhases = (
+				B73654C35EFE4AA59FAFCD4C /* Check Pods Manifest.lock */,
+				209B1F79197F12D700E9069D /* Sources */,
+				209B1F7A197F12D700E9069D /* Frameworks */,
+				209B1F7B197F12D700E9069D /* CopyFiles */,
+				7D18FE05AAF84AF7B4A7417E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveSpark;
+			productName = ObjectiveSpark;
+			productReference = 209B1F7D197F12D700E9069D /* libObjectiveSpark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		209B1F8C197F12D700E9069D /* ObjectiveSparkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B1FA3197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSparkTests" */;
+			buildPhases = (
+				209B1F89197F12D700E9069D /* Sources */,
+				209B1F8A197F12D700E9069D /* Frameworks */,
+				209B1F8B197F12D700E9069D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209B1F94197F12D700E9069D /* PBXTargetDependency */,
+			);
+			name = ObjectiveSparkTests;
+			productName = ObjectiveSparkTests;
+			productReference = 209B1F8D197F12D700E9069D /* ObjectiveSparkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209B1F75197F12D700E9069D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Evan Coleman";
+			};
+			buildConfigurationList = 209B1F78197F12D700E9069D /* Build configuration list for PBXProject "ObjectiveSpark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 209B1F74197F12D700E9069D;
+			productRefGroup = 209B1F7E197F12D700E9069D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209B1F7C197F12D700E9069D /* ObjectiveSpark */,
+				209B1F8C197F12D700E9069D /* ObjectiveSparkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209B1F8B197F12D700E9069D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F9B197F12D700E9069D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D18FE05AAF84AF7B4A7417E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ObjectiveSpark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73654C35EFE4AA59FAFCD4C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209B1F79197F12D700E9069D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1FA9197F149900E9069D /* OSAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B1F89197F12D700E9069D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B1F9D197F12D700E9069D /* ObjectiveSparkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209B1F94197F12D700E9069D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209B1F7C197F12D700E9069D /* ObjectiveSpark */;
+			targetProxy = 209B1F93197F12D700E9069D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209B1F99197F12D700E9069D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209B1F9A197F12D700E9069D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209B1F9E197F12D700E9069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		209B1F9F197F12D700E9069D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209B1FA1197F12D700E9069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63DE1F202E54A18BFEA4955 /* Pods-ObjectiveSpark.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveSpark.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		209B1FA2197F12D700E9069D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63DE1F202E54A18BFEA4955 /* Pods-ObjectiveSpark.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveSpark.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		209B1FA4197F12D700E9069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectiveSparkTests/ObjectiveSparkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		209B1FA5197F12D700E9069D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSpark/ObjectiveSpark-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveSparkTests/ObjectiveSparkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209B1F78197F12D700E9069D /* Build configuration list for PBXProject "ObjectiveSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B1F9E197F12D700E9069D /* Debug */,
+				209B1F9F197F12D700E9069D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209B1FA0197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B1FA1197F12D700E9069D /* Debug */,
+				209B1FA2197F12D700E9069D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209B1FA3197F12D700E9069D /* Build configuration list for PBXNativeTarget "ObjectiveSparkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B1FA4197F12D700E9069D /* Debug */,
+				209B1FA5197F12D700E9069D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209B1F75197F12D700E9069D /* Project object */;
+}
