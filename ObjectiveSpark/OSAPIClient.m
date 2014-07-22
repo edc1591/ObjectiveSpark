@@ -19,8 +19,8 @@
     return self;
 }
 
-- (NSURLSessionDataTask *)callFunction:(NSString *)func completion:(void (^)(id, NSError *))completion {
-    return [self GET:func parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+- (NSURLSessionDataTask *)callFunction:(NSString *)func parameter:(NSString *)param completion:(void (^)(id, NSError *))completion {
+    return [self GET:func parameters:@{@"args": param} success:^(NSURLSessionDataTask *task, id responseObject) {
         if (completion != nil) {
             completion(responseObject, nil);
         }

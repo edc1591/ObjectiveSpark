@@ -13,7 +13,7 @@
 @interface OSAPIClient (RACSupport)
 
 /// Returns a RACSignal that calls a function, sends the return value and then completes. Can also send an error.
-- (RACSignal *)rac_callFunction:(NSString *)func;
+- (RACSignal *)rac_callFunction:(NSString *)func parameter:(NSString *)param;
 
 /// Returns a RACSignal that reads a variable, sends the value and then completes. Can also send an error.
 - (RACSignal *)rac_readVariable:(NSString *)var;

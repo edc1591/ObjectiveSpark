@@ -10,9 +10,9 @@
 
 @implementation OSAPIClient (RACSupport)
 
-- (RACSignal *)rac_callFunction:(NSString *)func {
+- (RACSignal *)rac_callFunction:(NSString *)func parameter:(NSString *)param {
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-        NSURLSessionDataTask *task = [self callFunction:func completion:^(id responseObject, NSError *error) {
+        NSURLSessionDataTask *task = [self callFunction:func parameter:param completion:^(id responseObject, NSError *error) {
             if (error != nil) {
                 [subscriber sendError:error];
             } else {
