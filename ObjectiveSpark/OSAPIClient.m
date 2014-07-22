@@ -14,7 +14,11 @@
     NSString *urlString = [NSString stringWithFormat:@"https://api.spark.io/v1/devices/%@", deviceID];
     self = [super initWithBaseURL:[NSURL URLWithString:urlString]];
     if (self != nil) {
-
+        self.requestSerializer = [AFHTTPRequestSerializer serializer];
+        NSString *authString = [NSString stringWithFormat:@"Bearer %@", accessToken];
+        [self.requestSerializer setValue:authString forHTTPHeaderField:@"Authorization"];
+        
+        self.responseSerializer = [AFJSONResponseSerializer serializer];
     }
     return self;
 }
