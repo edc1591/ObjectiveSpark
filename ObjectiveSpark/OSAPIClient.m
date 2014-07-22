@@ -19,8 +19,8 @@
     return self;
 }
 
-- (void)callFunction:(NSString *)func completion:(void (^)(id, NSError *))completion {
-    [self GET:func parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+- (NSURLSessionDataTask *)callFunction:(NSString *)func completion:(void (^)(id, NSError *))completion {
+    return [self GET:func parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         if (completion != nil) {
             completion(responseObject, nil);
         }
@@ -31,12 +31,12 @@
     }];
 }
 
-- (void)readVariable:(NSString *)var completion:(void (^)(id, NSError *))completion {
+- (NSURLSessionDataTask *)readVariable:(NSString *)var completion:(void (^)(id, NSError *))completion {
     // Spark truncates variable names after the 12th character
     if (var.length > 12) {
         var = [var substringToIndex:12];
     }
-    [self POST:var parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    return [self POST:var parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         if (completion != nil) {
             completion(responseObject, nil);
         }

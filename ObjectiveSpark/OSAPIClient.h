@@ -13,7 +13,7 @@
 
 - (instancetype)initWithAccessToken:(NSString *)accessToken deviceID:(NSString *)deviceID;
 
-- (void)callFunction:(NSString *)func completion:(void (^)(id responseObject, NSError *error))completion;
-- (void)readVariable:(NSString *)var completion:(void (^)(id responseObject, NSError *error))completion;
+- (NSURLSessionDataTask *)callFunction:(NSString *)func completion:(void (^)(id responseObject, NSError *error))completion;
+- (NSURLSessionDataTask *)readVariable:(NSString *)var completion:(void (^)(id responseObject, NSError *error))completion;
 
 @end

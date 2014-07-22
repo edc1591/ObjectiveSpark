@@ -16,6 +16,7 @@
 		209B1F9B197F12D700E9069D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209B1F99197F12D700E9069D /* InfoPlist.strings */; };
 		209B1F9D197F12D700E9069D /* ObjectiveSparkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1F9C197F12D700E9069D /* ObjectiveSparkTests.m */; };
 		209B1FA9197F149900E9069D /* OSAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B1FA8197F149900E9069D /* OSAPIClient.m */; };
+		20AAE7DD197F238300E73391 /* OSAPIClient+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AAE7DC197F238300E73391 /* OSAPIClient+RACSupport.m */; };
 		C5FA613965F24913839AF328 /* libPods-ObjectiveSpark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E5E021083E420285CC4999 /* libPods-ObjectiveSpark.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		209B1FA7197F149900E9069D /* OSAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSAPIClient.h; sourceTree = "<group>"; };
 		209B1FA8197F149900E9069D /* OSAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSAPIClient.m; sourceTree = "<group>"; };
 		209B1FAE197F165200E9069D /* ReactiveCocoa+ObjectiveSpark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ReactiveCocoa+ObjectiveSpark.h"; path = "ObjectiveSpark/ReactiveCocoa+ObjectiveSpark.h"; sourceTree = "<group>"; };
+		20AAE7DB197F238300E73391 /* OSAPIClient+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OSAPIClient+RACSupport.h"; sourceTree = "<group>"; };
+		20AAE7DC197F238300E73391 /* OSAPIClient+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OSAPIClient+RACSupport.m"; sourceTree = "<group>"; };
 		D2E5E021083E420285CC4999 /* libPods-ObjectiveSpark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectiveSpark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63DE1F202E54A18BFEA4955 /* Pods-ObjectiveSpark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveSpark.xcconfig"; path = "Pods/Pods-ObjectiveSpark.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				209B1FAE197F165200E9069D /* ReactiveCocoa+ObjectiveSpark.h */,
+				20AAE7DB197F238300E73391 /* OSAPIClient+RACSupport.h */,
+				20AAE7DC197F238300E73391 /* OSAPIClient+RACSupport.m */,
 			);
 			name = "ReactiveCocoa+ObjectiveSpark";
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20AAE7DD197F238300E73391 /* OSAPIClient+RACSupport.m in Sources */,
 				209B1FA9197F149900E9069D /* OSAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

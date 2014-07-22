@@ -11,6 +11,6 @@
 #ifndef _REACTIVESPARK_H
 #define _REACTIVESPARK_H
 
-
+#import "OSAPIClient+RACSupport.h"
 
 #endif
