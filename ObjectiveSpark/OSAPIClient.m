@@ -24,7 +24,7 @@
 }
 
 - (NSURLSessionDataTask *)callFunction:(NSString *)func parameter:(NSString *)param completion:(void (^)(id, NSError *))completion {
-    return [self GET:func parameters:@{@"args": param} success:^(NSURLSessionDataTask *task, id responseObject) {
+    return [self POST:func parameters:@{@"args": param} success:^(NSURLSessionDataTask *task, id responseObject) {
         if (completion != nil) {
             completion(responseObject, nil);
         }
@@ -40,7 +40,7 @@
     if (var.length > 12) {
         var = [var substringToIndex:12];
     }
-    return [self POST:var parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    return [self GET:var parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         if (completion != nil) {
             completion(responseObject, nil);
         }
